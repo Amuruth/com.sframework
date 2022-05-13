@@ -11,8 +11,7 @@ public class LoginPage {
 	{
 		this.driver=ldriver;
 	}
-	
-	
+		
 	@FindBy(name="user-name")WebElement uname;
 	
 	@FindBy(name="password")WebElement pass;
@@ -36,5 +35,4 @@ public class LoginPage {
 		loginButton.click();
 		
 	}
-
 }
