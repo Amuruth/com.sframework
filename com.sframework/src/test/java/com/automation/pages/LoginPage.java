@@ -19,10 +19,11 @@ public class LoginPage {
 	By password= By.xpath("//*[@id=\"user_pass\"]");
 	By loginButton= By.name("wp-submit");	
 
-// parameterized constructor
-public LoginPage(WebDriver driver)//creating constructor with class name
+// this is new commit from Amuruth
+public LoginPage(WebDriver ldriver)//creating constructor with class name
 {
-	this.driver=driver;
+	this.driver=ldriver;
+	
 }
 
 public void loginToWrodpress(String userid, String pass)
